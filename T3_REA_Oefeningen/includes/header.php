@@ -12,13 +12,13 @@
 
 </head>
 <body>
-<header>
-    <h1>
-        <?php
-        echo 'Uitwerking van PHP-oefeningen';
-        ?>
-    </h1>
-</header>
-<?php
-    require "nav.php";
-?>
+    <header>
+        <h1>
+            <?php
+            echo 'Uitwerking van PHP-oefeningen';
+            ?>
+        </h1>
+    </header>
+    <?php
+        require "nav.php";
+    ?>
