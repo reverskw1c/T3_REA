@@ -19,4 +19,6 @@
         ?>
     </h1>
 </header>
-<body>
+<?php
+    require "nav.php";
+?>

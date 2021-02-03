@@ -32,3 +32,11 @@ span
 {
     text-decoration: underline;
 }
+footer
+{
+    width: 100%;
+    background-color: cadetblue;
+    clear: both;
+    text-align: center;
+    padding: 20px 0;
+}
