@@ -30,7 +30,7 @@
         <?php
             //Hier wordt het bestand ingeladen waarin de code van de naviatie staat.
 
-            require "includes/nav.php";
+            //require "includes/nav.php";
 
         ?>
 
@@ -43,6 +43,7 @@
             </p>
 
         </main>
+
     </body>
 </html>
 

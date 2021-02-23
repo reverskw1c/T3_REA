@@ -4,8 +4,24 @@
  * Date: Date
  * File: oefening 3.1
  */
+?>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>
+        <?php
+        echo 'Oefeningen overzicht thema 3 realiseren.';
+        ?>
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/style.css" rel="stylesheet">
 
-include "../includes/header.php";
+</head>
+<body>
+<?php
+    include "../includes/header.php";
+    include "../includes/nav.php";
 ?>
         <main id="wrapper">
             <h2>
