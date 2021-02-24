@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * User: R. Evers
  * Date: Date
  * File: index.php

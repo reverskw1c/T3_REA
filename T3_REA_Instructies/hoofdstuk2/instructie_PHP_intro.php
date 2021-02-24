@@ -1,7 +1,10 @@
 <?php
-    echo "Hallo wereld!<br>";
+    echo "<h1 class='blue'>Hallo</h1>";
 
-    echo "Hallo wereld!";
+    // 1 regel commentaar
 
-    echo "Hallo wereld!";
+    /*
+     * Meerdere regels commentaar
+     *
+     */
 ?>

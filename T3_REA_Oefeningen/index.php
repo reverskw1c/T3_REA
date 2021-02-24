@@ -28,15 +28,15 @@
         </header>
 
         <?php
-            //Hier wordt het bestand ingeladen waarin de code van de naviatie staat.
-
-            //require "includes/nav.php";
-
+            //Hier mag je de code van de navigatie neerzetten. Dit hoeft dus niet perse in PHP.
         ?>
 
         <main id="wrapper">
             <h2>
-                Uitwerkingen PHP oefeningen.
+                <?php
+                    echo "Uitwerkingen PHP oefeningen.";
+
+                ?>
             </h2>
             <p>
                 Op deze plek komt de uitwerking van iedere oefening te staan.
