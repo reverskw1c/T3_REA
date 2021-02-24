@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * User: R. Evers
  * Date: Date
  * File: index.php
@@ -25,7 +25,7 @@
                     echo 'Uitwerking van PHP-oefeningen';
                 ?>
             </h1>
-        </header>
+        </header
 
         <?php
             //Hier mag je de code van de navigatie neerzetten. Dit hoeft dus niet perse in PHP.

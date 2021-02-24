@@ -1,10 +1,4 @@
-<?php
-    echo "<h1 class='blue'>Hallo</h1>";
+<h2>
+    Koptekst
+</h2>
 
-    // 1 regel commentaar
-
-    /*
-     * Meerdere regels commentaar
-     *
-     */
-?>
