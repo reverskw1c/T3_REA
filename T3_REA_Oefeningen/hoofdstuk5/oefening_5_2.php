@@ -5,11 +5,6 @@
  * File: oefening 3.1
  */
 ?>
-
-<?php
-$class = "class='green'";
-?>
-
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -23,19 +18,20 @@ $class = "class='green'";
     <link href="../styles/style.css" rel="stylesheet">
 
 </head>
-<body <?php echo $class; ?>>
+<body  class="greenbg">
 <?php
-    include "../includes/header.php";
-    include "../includes/nav.php";
+include "../includes/header.php";
+include "../includes/nav.php";
 ?>
-        <main id="wrapper">
-            <h2>
-                Uitwerking oefening 3.2
-            </h2>
-            <p>
-                In deze oefening gaan we een template creeëren waar de header, nav en footer worden ingesloten met php.
-            </p>
-        </main>
+<main id="wrapper">
+    <h2>
+        Oefening student op KW1C
+    </h2>
+    <p>
+        Je bent op 23-03-2021 09:27 een student van het kw1c.
+
+    </p>
+</main>
 <?php
 include "../includes/footer.php";
 ?>

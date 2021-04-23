@@ -1,5 +1,6 @@
 <?php
     $path = "/T3_REA_Oefeningen/";
+    $pathT4 = "/T4_REA_Instructies/";
 ?>
 <aside>
     <h2>
@@ -28,6 +29,25 @@
 
                 </ul>
             </li>
+        </ul>
+    </nav>
+    <h2>
+        Thema 4
+    </h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="<?php echo $path . "index.php"; ?>">Home</a>
+            </li>
+            <li>Hoofdstuk 1
+                <ul>
+                    <li>
+                        <a href="<?php echo $pathT4;?>index.php">Oefening 1.1</a>
+                    </li>
+
+                </ul>
+            </li>
+
         </ul>
     </nav>
 </aside>

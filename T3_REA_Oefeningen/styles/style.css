@@ -41,3 +41,22 @@ footer
     text-align: center;
     padding: 20px 0;
 }
+.greenbg
+{
+    background-color: green;
+}
+.greenbg #wrapper
+{
+    color: #FFF;
+}
+
+/* Thema 4 */
+table, td
+{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+span
+{
+    display: none;
+}

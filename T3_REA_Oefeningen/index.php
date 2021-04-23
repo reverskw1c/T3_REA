@@ -19,13 +19,9 @@
 
     </head>
     <body>
-        <header>
-            <h1>
-                <?php
-                    echo 'Uitwerking van PHP-oefeningen';
-                ?>
-            </h1>
-        </header
+        <?php
+            include "includes/header.php";
+        ?>
 
         <?php
             //Hier mag je de code van de navigatie neerzetten. Dit hoeft dus niet perse in PHP.

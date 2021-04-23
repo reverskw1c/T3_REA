@@ -1,5 +1,9 @@
+<?php
+require "var.php";
+?>
+
         <footer>
             <p>
-                &copy; Voornaam Achternaam | Klasnaam | 31-01-2021
+                <?php echo "&copy; $name | $class | $date"; ?>
             </p>
         </footer>
