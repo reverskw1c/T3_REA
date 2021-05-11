@@ -1,9 +1,5 @@
 <?php
-require_once "includes/dbconnect.php";
-// Uitvoeren van een SQl query
-?>
-
-<?php
+//phpinfo();
 /**
  * User: R. Evers
  * Date: Date
@@ -25,11 +21,16 @@ require_once "includes/dbconnect.php";
 </head>
 <body  class="greenbg">
 <?php
+//Toevoegen header balk
 include "../T3_REA_Oefeningen/includes/header.php";
+//Toevoegen navigatie als sidebar
 include "../T3_REA_Oefeningen/includes/nav.php";
 ?>
 <main id="wrapper">
 <?php
+//include bestand waar db connectie gelegd wordt.
+require_once "includes/dbconnect.php";
+
 //Exception handler
 try
 {
@@ -62,10 +63,11 @@ echo "<table>";
     //Gegevens uit de database ophalen.
     while ($row = $result->fetch(PDO::FETCH_ASSOC))
     {
+        //Rij aanmaken voor ieder raadsel.
         echo "<tr>";
         echo "<td>" . $row["Id"] . "</td>";
         echo "<td>" . $row["RiddleText"] . "</td>";
-        echo "<td><button id='link$counter' onclick='showAnswer(\"answer$counter\", this)'>Klik voor het antwoord</button><span id='answer". $counter ."'>" . $row["RiddleAnswer"] . "</span></td>";
+        echo "<td><button id='link$counter' onclick='showAnswer(this, \"answer$counter\")'>Klik voor het antwoord</button><span id='answer". $counter ."'>" . $row["RiddleAnswer"] . "</span></td>";
         echo "<td>" . $row["Creator"] . "</td>";
         echo "<td>" . $row["CreateDate"] . "</td>";
         echo "</tr>";
@@ -75,6 +77,7 @@ echo "</table>";
 ?>
 </main>
 <?php
+//Toevoegen footer
 include "../T3_REA_Oefeningen/includes/footer.php";
 ?>
 </body>

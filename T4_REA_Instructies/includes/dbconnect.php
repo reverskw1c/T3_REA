@@ -2,7 +2,9 @@
 // Open de database connectie en ODBC driver
 try
 {
-    $pdo = new PDO("odbc:odbc2sqlserver");
+    //Zorgt voor de verbinding database
+    //$pdo = new PDO("odbc:odbc2sqlserver");
+    $pdo = new PDO("odbc:odbc_ijdb");
 }
 catch (PDOException $e)
 {

@@ -1,7 +1,8 @@
-function showAnswer(nmbr ,test)
+function showAnswer(elmnt, answer)
 {
-    //this.style.display = "none";
-    console.log(test.id);
-    document.getElementById(test.id).style.display = "none";
-    document.getElementById(nmbr).style.display = "block";
+    //Hide button
+    elmnt.style.display = "none";
+
+    //Show answer
+    document.getElementById(answer).style.display = "block";
 }
